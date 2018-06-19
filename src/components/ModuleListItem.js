@@ -10,11 +10,12 @@ export default class ModuleListItem
     render() {
         return (
             <li className={"list-group-item"}>
-                {/*{this.props.module.title}*/}
-                Module 1
+                {this.props.module.title}
                 <span className="float-right">
                 <i className="fa fa-trash"></i>
-                <i className="fa fa-pencil"></i>
+                    &nbsp;
+                    &nbsp;
+                    <i className="fa fa-pencil"></i>
                     </span>
             </li>
         );

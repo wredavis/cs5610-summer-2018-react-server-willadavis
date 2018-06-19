@@ -7,7 +7,7 @@ export default class CourseList extends React.Component {
     constructor() {
         super();
         this.courseService = CourseService.instance;
-        this.state = {course: "New Course",
+        this.state = {course: {title: ''},
             courses: []};
     }
 

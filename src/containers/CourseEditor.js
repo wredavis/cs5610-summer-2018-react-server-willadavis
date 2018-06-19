@@ -1,14 +1,13 @@
 import React from 'react'
 import ModuleList from './ModuleList'
 import LessonTabs from './LessonTabs'
-import CourseService from '../services/CourseService/'
-
+import CourseService from '../services/CourseService'
 
 export default class CourseEditor
     extends React.Component {
 
     constructor(props) {
-        super(props)
+        super(props);
         this.state = {
             course: '',
             courseId: ''
@@ -16,7 +15,7 @@ export default class CourseEditor
 
         this.selectCourse = this.selectCourse.bind(this);
         this.setCourse = this.setCourse.bind(this);
-        this.courseService = CourseService.instance();
+        this.courseService = CourseService.instance;
     }
 
     // componentDidMount() {

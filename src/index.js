@@ -9,6 +9,7 @@ import '../node_modules/bootstrap/dist/css/bootstrap.css'
 
 
 ReactDOM.render(
-    <CourseManager/>,
+    //<CourseManager/>,
+
     document.getElementById('root')
 );
